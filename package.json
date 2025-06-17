@@ -1,13 +1,13 @@
 {
-  "name": "ide-css",
-  "version": "0.4.0",
+  "name": "ide-css-updated",
+  "version": "0.1.0",
   "description": "Atom-IDE for CSS, LESS and SCSS language",
   "main": "src/main.js",
   "scripts": {
     "lint": "eslint ./src",
     "ci": "npm run lint"
   },
-  "repository": "https://github.com/liuderchi/ide-css.git",
+  "repository": "git@github.com:albert200000/ide-css.git",
   "keywords": [
     "atom-ide",
     "css",
@@ -18,18 +18,17 @@
     "language-server-protocol",
     "outline-view"
   ],
-  "author": "Te-Chi Liu",
+  "author": "albert200000",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/liuderchi/ide-css/issues"
+    "url": "https://github.com/albert200000/ide-css/issues"
   },
-  "homepage": "https://github.com/liuderchi/ide-css#readme",
   "devDependencies": {
     "eslint": "^7.27.0"
   },
   "dependencies": {
-    "atom-languageclient": "^1.10.0",
-    "vscode-css-languageserver-bin": "^1.4.0"
+    "atom-languageclient": "^1.16.1",
+    "vscode-langservers-extracted": "^4.10.0"
   },
   "engines": {
     "atom": ">=1.21.0"

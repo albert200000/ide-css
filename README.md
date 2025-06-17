@@ -1,9 +1,5 @@
 # ide-css
 
-[![apm-download-count][apm-download-count]][apm-download-link]
-[![ci-status][ci-status]][ci-link]
-[![dependency-status][david-status]][david-project]
-
 Atom-IDE for CSS, LESS and SCSS language
 
 ![demo1][demo1]
@@ -58,7 +54,6 @@ Please read [CONTRIBUTING.md][CONTRIBUTING.md] for more details.
 
 ## Notes and References
   - [`ide-css`][apm-download-link] acts as a *client* of language server basing on [`atom-languageclient`][atom-languageclient]
-  - [`vscode-css-languageserver-bin`][vscode-css-languageserver-bin] acts as a *language server* and analyze your CSS in separate process
   - language servers and clients are talking with [Language Server Protocol (LSP)][lsp]
 
 
@@ -67,21 +62,13 @@ Please read [CONTRIBUTING.md][CONTRIBUTING.md] for more details.
 [MIT License][mit-license]
 
 
-[apm-download-count]: https://img.shields.io/apm/dm/ide-css.svg "apm-download-count"
-[apm-download-link]: https://atom.io/packages/ide-css "apm-download-link"
-[ci-status]: https://github.com/liuderchi/ide-css/actions/workflows/ci.yml/badge.svg "ci-status"
-[ci-link]: https://github.com/liuderchi/ide-css/actions "ci-link"
-[david-status]: https://david-dm.org/liuderchi/ide-css.svg "david-status"
-[david-project]: https://david-dm.org/liuderchi/ide-css "david-project"
+[apm-download-link]: https://atom.io/packages/ide-css-updated "apm-download-link"
 [demo1]: https://user-images.githubusercontent.com/4994705/30840126-2a71c32a-a23b-11e7-8dd4-9189723c438a.png "demo1"
 [demo2]: https://user-images.githubusercontent.com/4994705/30840198-864c7fb4-a23b-11e7-9db7-0c9239b83205.png "demo2"
 
 [atom-ide-ui]: https://atom.io/packages/atom-ide-ui "atom-ide-ui"
-[CONTRIBUTING.md]: https://github.com/liuderchi/ide-css/blob/main/CONTRIBUTING.md "CONTRIBUTING.md"
-[create-issue]: https://github.com/liuderchi/ide-css/issues/new "create-issue"
+[CONTRIBUTING.md]: https://github.com/albert200000/ide-css/blob/main/CONTRIBUTING.md "CONTRIBUTING.md"
+[create-issue]: https://github.com/albert200000/ide-css/issues/new "create-issue"
 
 [atom-languageclient]: https://github.com/atom/atom-languageclient "atom-languageclient"
-[vscode-css-languageserver-bin]: https://github.com/vscode-langservers/vscode-css-languageserver-bin "vscode-css-languageserver-bin"
 [lsp]: http://langserver.org/ "lsp"
-
-[mit-license]: https://liuderchi.mit-license.org/ "mit-license"
