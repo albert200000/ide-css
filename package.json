@@ -1,6 +1,6 @@
 {
   "name": "ide-css-updated",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Atom-IDE for CSS, LESS and SCSS language",
   "main": "src/main.js",
   "scripts": {
